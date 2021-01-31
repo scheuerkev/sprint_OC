@@ -73,7 +73,39 @@ header ul {
 
 /*ARTICLE*/
 article {
-    display: grid;
-    grid-template: 50px
+
 }
+
+#who-we-are {
+    width: 700px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+#our-talents {
+    width: 700px;
+    margin: auto;
+    display: flex;
+    margin-bottom: 30px;
+}
+#testimonials {
+    width: 700px;
+    margin: auto;
+}
+
+#graphic {
+    width: 33%;
+}
+#graphic img {
+    width: 64px;
+    margin: auto;
+}
+#strategy {
+    width: 33%;
+}
+#illustration {
+    width: 33%;
+}
+
+
 /*FOOTER*/
