@@ -9,6 +9,16 @@ body {
     font-family: 'Roboto', serif;
 }
 
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: gray;
+}
+
+a:hover {
+    color: lightgray;
+}
+
 #main-wrapper{
     width: 1080px;
     margin: auto;
@@ -18,20 +28,52 @@ body {
 header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+
 }
 
 header ul {
     display: flex;
     justify-content: space-between;
+    /*width: 150px;*/
+    list-style-type: none;
 }
+ header li:last-child {
+     padding-left: 2em;
+ }
+
 /*MAIN NAV*/
 
 
 /*MAIN*/
 
 /*HEADINGS*/
-#headings img {
+#headings {
+    position: relative;
+}
+#img-base {
     max-width: 100%;
 }
 
+#img-hover {
+    position: relative;
+    margin: auto;
+    width: 180px;
+    bottom: 300px;
+    left: 450px;
+}
+
+#headings h1 {
+    position: relative;
+    color: whitesmoke;
+    bottom: 270px;
+    left: 380px;
+    font-weight: lighter;
+}
+
+/*ARTICLE*/
+article {
+    display: grid;
+    grid-template: 50px
+}
 /*FOOTER*/
