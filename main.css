@@ -1,4 +1,37 @@
+/*RESET*/
 * {
     margin: 0;
     padding: 0;
 }
+
+/*PROPRIÉTÉS GLOBALES*/
+body {
+    font-family: 'Roboto', serif;
+}
+
+#main-wrapper{
+    width: 1080px;
+    margin: auto;
+}
+
+/*HEADER*/
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+header ul {
+    display: flex;
+    justify-content: space-between;
+}
+/*MAIN NAV*/
+
+
+/*MAIN*/
+
+/*HEADINGS*/
+#headings img {
+    max-width: 100%;
+}
+
+/*FOOTER*/
