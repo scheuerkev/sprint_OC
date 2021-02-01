@@ -98,6 +98,7 @@ article {
 }
 #graphic img {
     width: 64px;
+    display: block;
     margin: auto;
 }
 #strategy {
