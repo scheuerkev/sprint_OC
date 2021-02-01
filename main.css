@@ -35,22 +35,21 @@ header {
 header ul {
     display: flex;
     justify-content: space-between;
-    /*width: 150px;*/
     list-style-type: none;
 }
  header li:last-child {
      padding-left: 2em;
  }
 
-/*MAIN NAV*/
-
-
 /*MAIN*/
 
 /*HEADINGS*/
 #headings {
     position: relative;
+    max-height: 470px;
+
 }
+
 #img-base {
     max-width: 100%;
 }
@@ -65,27 +64,30 @@ header ul {
 
 #headings h1 {
     position: relative;
+    display: inline-block;
     color: whitesmoke;
-    bottom: 270px;
-    left: 380px;
+    bottom: 260px;
+    left: 190px;
     font-weight: lighter;
 }
 
 /*ARTICLE*/
-article {
-
-}
 
 #who-we-are {
     width: 700px;
     margin: auto;
-    margin-bottom: 30px;
+    margin-bottom: 1em;
+    color: dimgray;
+    font-size: 1.3em;
+    text-align: center;
+    line-height: 1.3em;
 }
 
 #our-talents {
     width: 700px;
     margin: auto;
     display: flex;
+    justify-content: space-between;
     margin-bottom: 30px;
 }
 #testimonials {
@@ -94,19 +96,126 @@ article {
 }
 
 #graphic {
-    width: 33%;
+    width: 30%;
 }
 #graphic img {
     width: 64px;
     display: block;
     margin: auto;
 }
-#strategy {
-    width: 33%;
-}
-#illustration {
-    width: 33%;
+
+#graphic h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.3em;
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
 }
 
+#graphic p {
+    width: 85%;
+    margin: auto;
+    text-align: justify;
+    font-size: 1em;
+}
+
+#strategy {
+    width: 30%;
+}
+
+#strategy img {
+    width: 64px;
+    display: block;
+    margin: auto;
+}
+
+#strategy h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.3em;
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
+}
+
+#strategy p {
+    width: 85%;
+    margin: auto;
+    text-align: justify;
+    font-size: 1em;
+}
+
+#illustration {
+    width: 30%;
+}
+
+#illustration img {
+    width: 64px;
+    display: block;
+    margin: auto;
+}
+
+#illustration h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.3em;
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
+}
+
+#illustration p {
+    width: 85%;
+    margin: auto;
+    text-align: justify;
+    font-size: 1em;
+}
+
+#testimonials {
+    color: dimgray;
+    text-align: justify;
+    line-height: 1.4em;
+    margin-bottom: 10px;
+}
+#author {
+    text-align: center;
+}
 
 /*FOOTER*/
+footer {
+    background-color: #5B359D;
+}
+
+#copyright {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    color: #FFFFF9;
+    font-size: 0.9em;
+}
+
+#socials {
+    color: #FFFFF9;
+    width: 25%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+#footer-nav {
+    color: #FFFFF9;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+
+#footer-nav ul {
+    list-style-type: none;
+
+}
+
+#footer-nav h3 {
+    font-size: 0.9em;
+
+}
